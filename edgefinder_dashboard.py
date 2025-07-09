@@ -279,4 +279,3 @@ st.dataframe(sentiment_df.style.applymap(highlight_net, subset=["Net"]), use_con
 st.components.v1.html(f"""
 <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_advanced&symbol=OANDA:{selected_pair.replace('_','')}&interval=60&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=%5B%22MACD%40tv-basicstudies%22%5D&theme=dark&style=1&timezone=Etc%2FUTC&withdateranges=1&hide_side_toolbar=false&allow_symbol_change=true&details=true&hotlist=true&calendar=true&studies_overrides={{}}&overrides={{}}&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en" width="1000" height="600" frameborder="0"></iframe>
 """, height=600)
-
