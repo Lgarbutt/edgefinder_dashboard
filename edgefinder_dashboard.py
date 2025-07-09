@@ -282,17 +282,3 @@ st.components.v1.html(f"""
 """, height=600)
 >>>>>>> 7778ba7ea895eeee4c4ecdf2db551034fcadce9b
 
-# --- Myfxbook Sentiment Widget ---
-st.markdown("### 🧠 Myfxbook Trader Sentiment")
-st.components.v1.html("""
-<div>
-  <script type="text/javascript" src="https://widgets.myfxbook.com/scripts/fxOutlook.js?type=8"></script>
-  <div style="font-size: 10px">
-    <a href="https://www.myfxbook.com" class="myfxbookLink" target="_blank" rel="noopener">
-      Powered by Myfxbook.com
-    </a>
-  </div>
-  <script type="text/javascript">showOutlookWidget();</script>
-</div>
-""", height=400)
-
